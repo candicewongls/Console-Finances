@@ -107,15 +107,29 @@ for (var i=0;i<profitArray.length;i++) {
     var income=profitArray[i]
     total=total + income 
 }
-console.log (total)
+console.log ("Net total amount of Porfit/Loss:" + total)
 
 var change=0
+var greatestIncrease=0
+var greatestLoss=0
 for (var i=1;i<profitArray.length;i++) {
     var income=profitArray[i]
     var prev=profitArray[i-1]
     var diff= prev - income
     change=change + diff
+/*greatest increase and greatest loss*/
+if (diff>greatestIncrease) {
+    greatestIncrease=diff
+    
+   
 }
-console.log(change)
-console.log(change/finances.length)
+if (diff<greatestLoss) {
+    greatestLoss=diff
+}
+}
+console.log("total change from month to month: " + change)
+console.log("Average of the change in profits: " + change/finances.length)
+console.log("The greatest increase in profits:" + greatestIncrease)
+console.log("The greatest decrease in loss:" + greatestLoss)
+
 
