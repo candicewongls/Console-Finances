@@ -39,7 +39,7 @@
 
 
 ## Github Repo
-https://github.com/candicewongls/challenge-week2.git
+https://github.com/candicewongls/Console-Finances
 
 ## Live URL
  https://candicewongls.github.io/challenge-week2/
