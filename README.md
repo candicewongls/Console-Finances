@@ -42,12 +42,11 @@
 https://github.com/candicewongls/Console-Finances
 
 ## Live URL
- https://candicewongls.github.io/challenge-week2/
+ https://candicewongls.github.io/Console-Finances/
 
 ## Credit
-* [HTML pre element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre)
-* [CSS user-select property](https://developer.mozilla.org/en-US/docs/Web/CSS/user-select).
-* [CSS transition property](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+https://www.w3schools.com/js/
+
 
 ## License
 MIT License
