@@ -115,7 +115,7 @@ var greatestLoss = 0
 for (var i = 1; i < profitArray.length; i++) {
     var income = profitArray[i]
     var prev = profitArray[i - 1]
-    var diff = prev - income
+    var diff = income - prev
     change = change + diff
     /*greatest increase and greatest loss*/
     if (diff > greatestIncrease) {
@@ -133,7 +133,7 @@ for (var i = 1; i < profitArray.length; i++) {
     }
 }
 console.log("total change from month to month: " + change)
-console.log("Average of the change in profits: " + change / finances.length)
+console.log("Average of the change in profits: " + change / [finances.length -1])
 console.log("The greatest increase in profits:" + greatestIncrease + ' at month: ' + dateArray[greatestIncreaseMonth])
 console.log("The greatest decrease in loss:" + greatestLoss + ' at month: ' + dateArray[greatestLossMonth])
 
